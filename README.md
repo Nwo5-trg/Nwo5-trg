@@ -55,12 +55,12 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 ### Fixes
 im too scared to touch the codebase, ill js update and pray it works
 
-## \[big editor mod collection - like better edit but worse :3\]
+## big editor mod collection - like better edit but worse :3
 mayb i should come up w/ a name-
 
-i dont rly wanna *maintain* a million different mods anymore so ive settled on js making one big mod :3
+i dont rly wanna "*maintain*" (have a bunch of different mods that r all buggy but i dont wanna touch) a million different mods anymore so ive settled on js making one big mod :3
 
-mind u this'll prolly have way more stuff this is js wat i have come up w/ for now
+mind u thisll prolly have way more stuff this is js wat i have come up w/ for now
 
 ### Settings
 trigger indicators has already kinda proven using geode settings as very annoying and infeasible for something like this so the idea is

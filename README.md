@@ -2,7 +2,7 @@ sooooooo, new gd version finally :3 - meaning all my mods have to b updated whic
 
 im not rly happy w/ a lot of the mods ive made so i think this is the perfect opportunity to fix that - no guarantees abt when i actually finish stuff tho
 
-main thing is i want to make a big editor mod combining most of the editor mods ive already made, my plans for that r in here
+main thing is i want to make a big editor mod combining most of the editor mods ive already made, my plans for that r in [here](https://github.com/Nwo5-trg/Nwo5-trg/blob/main/todo.md)
 
 ## Progress
 - better editor trail not ported

@@ -8,7 +8,7 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 - better editor trail not ported
 - trigger indicators not ported
 - group label shenanigans not ported
-- 6/19 mod collection features done
+- 12?/19? mod collection features done
 
 ## Mods
 ### Updating
@@ -21,10 +21,9 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 - free select
 - trigger context menus
 - better easing select
-- more select filters
+- save parent
 #### prolly wont rewrite
 - scroll inputs
-- save parent
 - confirm like
 - percentage liked
 - improved colors
@@ -32,17 +31,18 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 - kill count
 
 ### Merged
-- default object options
+- ~~default object options~~
 - quick fill
 - scale input
-- replace object
-- better particles
+- ~~replace object~~
+- ~~better particles~~
 - auto startpos
-- text object utils
-- free snap
-- better select all
+- ~~text object utils~~
+- ~~free snap~~
+- ~~better select all~~
 - better move menu (not updating on index but will b updated; might b merged)
-- setup user coin
-- trigger id search
-- better object tab icons
-- ruler
+- ~~setup user coin~~
+- ~~trigger id search~~
+- ~~better object tab icons~~
+- ~~more select filters~~
+- ~~ruler~~

@@ -8,7 +8,7 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 - better editor trail not ported
 - trigger indicators not ported
 - group label shenanigans not ported
-- 12?/19? mod collection features done
+- mod collection wip
 
 ## Mods
 ### Updating
@@ -33,7 +33,7 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 ### Merged
 - ~~default object options~~
 - quick fill
-- scale input
+- scale input~~
 - ~~replace object~~
 - ~~better particles~~
 - auto startpos

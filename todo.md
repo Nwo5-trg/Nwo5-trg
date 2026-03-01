@@ -45,35 +45,15 @@ basically features i wanna impl *the silly way* (poorly) that may or may not alr
 #### Template
 - save a level as a "template" and all new levels will have wtv blocks were in that level + its level settings
 - like the old better edit feature
-#### Layer Input
-- fuck you ive wanted to impl this for so long idc
 #### Zoom Input
 - self explanatory
-#### Pivot Snapping
-- but not like the mod that alrdy exists, it js snaps when let go instead of using keybind/button
 #### Trigger UI Utils
 - wip mod i made a while ago which changes some trigger ui
-#### Exit Static Fix Button
-- generates the extra static triggers needed for exit follow static wtv to work properly
-- if 2.208 didnt alrdy impl that i havent checked :3c
 
 ### Merged
-#### Default Object Options (done)
-- way more options (mayb steal from that other mod cuz idk how they did it without js a bunch of manual entries :3)
 #### Quickfill
 - fix the color bug if i haven't already
 - add option to fill with next placed object as center (and also some kind of fallback if objects keep filling an area too large)
 - mayb do wat creatorcreepy suggested and figure out an alg to optimize the area filled
-#### Scale Input
-- actually rewrite ts
-- add back clipboard
-#### Replace Object (done)
-- instead of edit menu icon - have a find and replace type bar in the top right with a button :3
-#### Better Select All (done)
-- option to add a button somewhere in editor ui - not sure where yet
-#### Setup User Coin (done)
-- reimpl popup to b more vanilla (like capelings mod)
-#### Ruler
-- oml use drawnode i was scaling ccsprites im actually kms </3
-#### Auto Startpos, Text Object Utils, Free Snap, Trigger ID Search (done), Better Object Tab Icons (done)
+#### Auto Startpos
 - js update version and cleanup a lil

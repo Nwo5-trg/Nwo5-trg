@@ -19,6 +19,10 @@
 - iterators `it`
 - retaining `ret`
 
+### struct vs class
+only use structs simple storage containers (something that could reasonably be replaced by std::pair or std::tuple)
+
+everything else use classes for
 
 ### scope on same line
 
@@ -49,17 +53,17 @@ other thing
 
 ```cpp
 // ya
-struct UwU {
+struct Silly {
     bool rawr;
 };
 // no
-struct UwU { bool rawr; };
+struct Silly { bool rawr; };
 ```
 
 for empty structs its fine tho
 
 ```cpp
-struct UwU {};
+struct Silly {};
 ```
 
 ### ptrs/references
@@ -84,33 +88,33 @@ int const uwu = 1;
 
 ```cpp
 // ya
-UwU()
+Silly()
     : rawr(true) {}
 // no
-UwU() : rawr(true) {}
+Silly() : rawr(true) {}
 ```
 
 even for defaults
 
 ```cpp
 // ya
-UwU()
+Silly()
     = default;
 // no
-UwU() = default;
+Silly() = default;
 ```
 
 also
 
 ```cpp
 // ya
-UwU()
+Silly()
     : rawr(true) 
 {
     thing();
 }
 // no
-UwU() 
+Silly() 
     : rawr(true) {
     thing();
 }
@@ -257,6 +261,32 @@ uwu(REALLY_REALLY_REALLY_REALLY_REALLY_LONG_CONSTANT,
     OTHER_REALLY_REALLY_REALLY_REALLY_REALLY_LONG_CONSTANT);
 ```
 
+### access specifiers
+
+```cpp
+// ya
+class Silly {
+private:
+    bool secret;
+
+protected:
+    bool rawr;
+
+public:
+    bool rawr2;
+};
+// no
+class Silly {
+    protected:
+    bool rawr;
+public:
+    bool rawr2;
+private:
+    bool secret;
+
+};
+```
+
 ### lambdas 
 
 ```cpp
@@ -267,6 +297,20 @@ auto uwu = [this] () {
 // no
 auto uwu = [this](){
     thing();
+};
+```
+
+### template specialization (does not apply to partial specialization
+
+```cpp
+// ya
+template<> struct Silly<void> {
+    bool rawr;
+};
+// no
+template<>
+struct Silly<void> {
+    bool rawr;
 };
 ```
 

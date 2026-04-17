@@ -11,8 +11,11 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 - mod collection wip
 
 ## Mods
-### Updating
+## #Updated
 - better editor trail
+- better volume
+
+### Updating
 - trigger indicators
 - group label shenanigans
 
@@ -32,15 +35,15 @@ main thing is i want to make a big editor mod combining most of the editor mods 
 
 ### Merged
 - ~~default object options~~
-- quick fill
-- scale input~~
+- ~~quick fill~~
+- ~~scale input~~
 - ~~replace object~~
 - ~~better particles~~
-- auto startpos
+- ~~auto startpos~~
 - ~~text object utils~~
 - ~~free snap~~
 - ~~better select all~~
-- better move menu (not updating on index but will b updated; might b merged)
+- better move menu
 - ~~setup user coin~~
 - ~~trigger id search~~
 - ~~better object tab icons~~

@@ -5,10 +5,11 @@ im not rly happy w/ a lot of the mods ive made so i think this is the perfect op
 main thing is i want to make a big editor mod combining most of the editor mods ive already made, my plans for that r in [here](https://github.com/Nwo5-trg/Nwo5-trg/blob/main/todo.md)
 
 ## Progress
-- better editor trail not ported
+- better editor trail **ported**
+- better volume **ported**
+- mod collection *check merged section* + testing
 - trigger indicators not ported
 - group label shenanigans not ported
-- mod collection wip
 
 ## Mods
 ## #Updated
